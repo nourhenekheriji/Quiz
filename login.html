@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logincss.css">
+    <title>login</title>
+</head>
+<body>
+   
+
+   <div class="contrainer">
+     <h1 class="label">User login</h1>
+  
+
+           <form class="login_form" action="index.html" method="post" name="form" onsubmit="return 
+           validated()">
+            <div class="font font2">Email :</div>
+            <input autocomplete="off" type="text" name="email">
+            <!--<div id="email_error">email incorrect</div>-->
+            <div class="font font2">Password :</div>
+            <input  type="password" name="password">
+           <!-- <div id="pass_error">mot de passe incorrect</div>-->
+            <button type="submit">login</button>
+         
+
+           </form>
+       </div>
+
+   </div>
+ 
+
+  <script src='loginjs.js'></script>
+
+
+</body>
+</html>
